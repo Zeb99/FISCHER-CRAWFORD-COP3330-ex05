@@ -18,11 +18,15 @@ public class App
         System.out.println("What is the second number? ");
         int numTwo = scan.nextInt();
 
-        System.out.println(numOne + " + " + numTwo + " = " + numTwo+numOne );
-        //System.out.println();
-       //System.out.println();
-        //System.out.println();
+        int add = numOne + numTwo;
+        int sub = numOne - numTwo;
+        int pro = numOne * numTwo;
+        int quo = numOne / numTwo;
 
+        System.out.println(numOne + " + " + numTwo + " = " + add + "\n" +
+                           numOne + " - " + numTwo + " = " + sub + "\n" +
+                           numOne + " * " + numTwo + " = " + pro + "\n" +
+                           numOne + " / " + numTwo + " = " + quo);
 
     }
 }
